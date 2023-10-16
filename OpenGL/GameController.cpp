@@ -25,8 +25,8 @@ void GameController::Initialize()
 void GameController::RunGame()
 {
 	// Show the C++/CLI tool window
-	OpenGL::ToolWindow^ window = gcnew OpenGL::ToolWindow();
-	window->Show();
+	/*OpenGL::ToolWindow^ window = gcnew OpenGL::ToolWindow();
+	window->Show();*/
 
 	// Create and compile our GLSL program from the shaders
 	m_shader = Shader();
